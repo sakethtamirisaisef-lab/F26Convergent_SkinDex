@@ -2,6 +2,8 @@
 
 Backend for the Skindex React Native app. FastAPI on Render, Postgres and photo storage on Supabase, sign-in handled by Supabase Auth, and the dermatologist-trained skin model running on every check-in.
 
+
+
 ```
 React Native app ──(Supabase Auth: sign in)──> Supabase Auth
        │  Authorization: Bearer <access token>
