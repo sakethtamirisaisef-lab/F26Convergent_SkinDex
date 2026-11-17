@@ -3,7 +3,7 @@ services:
   - type: web
     name: skindex-api
     runtime: python
-    plan: starter            # free instances sleep after 15 min idle; starter stays up
+    plan: free            # free instances sleep after 15 min idle; starter stays up
     region: oregon
     buildCommand: pip install -r requirements.txt
     # migrations run on every deploy before the new version takes traffic
